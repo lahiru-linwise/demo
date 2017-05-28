@@ -27,7 +27,7 @@ import java.util.Collection;
 @EnableConfigurationProperties({LiquibaseProperties.class, ApplicationProperties.class})
 @EnableDiscoveryClient
 public class LinwiseApp {
-
+// this a comment
     private static final Logger log = LoggerFactory.getLogger(LinwiseApp.class);
 
     private final Environment env;
